@@ -1,1 +1,1 @@
-# Find-Merge-Point-of-Two-Lists
+I start with two pointers, one at the head of each list. Then I move both pointers forward one step at a time. If a pointer reaches the end of its list, I switch it to the head of the other list. This way, both pointers will eventually meet at the merge point. When they meet, I return the data of that node.
